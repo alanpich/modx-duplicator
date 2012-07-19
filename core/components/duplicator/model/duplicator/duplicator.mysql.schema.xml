@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="duplicator" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" version="1.1">
+	<object class="DuplicatorElements" table="duplicator_elements" extends="xPDOObject">
+		<field key="id" dbtype="int" precision="11" phptype="integer" null="false" />
+		<field key="name" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="json" dbtype="text" phptype="string" null="false" />
+	</object>
+</model>
